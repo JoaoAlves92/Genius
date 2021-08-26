@@ -53,7 +53,7 @@ export default function Game() {
     function botaoBeep(num, user=false) {
         if (num == 0) {
             setPressionado(0)
-            let som = new Sound('som_1.mp3', Sound.MAIN_BUNDLE, (error) => {
+            let som = new Sound('https://www.beepzoid.com/ringtones/Bell-1.mp3', null, (error) => {
                 if (error) {
                     alert(error)
                     return;
@@ -70,7 +70,7 @@ export default function Game() {
             })
         } else if (num == 1) {
             setPressionado(1)
-            let som = new Sound('som_2.mp3', Sound.MAIN_BUNDLE, (error) => {
+            let som = new Sound('https://www.beepzoid.com/ringtones/Bell-2.mp3', null, (error) => {
                 if (error) {
                     alert(error)
                     return;
@@ -87,7 +87,7 @@ export default function Game() {
             })
         } else if (num == 2) {
             setPressionado(2)
-            let som = new Sound('som_3.mp3', Sound.MAIN_BUNDLE, (error) => {
+            let som = new Sound('https://www.beepzoid.com/ringtones/Bell-3.mp3', null, (error) => {
                 if (error) {
                     alert(error)
                     return;
@@ -104,7 +104,7 @@ export default function Game() {
             })
         } else if (num == 3) {
             setPressionado(3)
-            let som = new Sound('som_4.mp3', Sound.MAIN_BUNDLE, (error) => {
+            let som = new Sound('https://www.beepzoid.com/ringtones/Bell-4.mp3', null, (error) => {
                 if (error) {
                     alert(error)
                     return;

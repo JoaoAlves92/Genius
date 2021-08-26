@@ -8,7 +8,7 @@ export default function Perdeu() {
     const navigation = useNavigation()
 
     useEffect(() => {
-        let som = new Sound('buzina_perdeu.mp3', Sound.MAIN_BUNDLE, (error) => {
+        let som = new Sound('https://www.beepzoid.com/ringtones/GameOver.mp3', null, (error) => {
             if (error) {
                 alert(error)
                 return;
